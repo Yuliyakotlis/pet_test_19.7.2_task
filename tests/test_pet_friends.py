@@ -215,7 +215,7 @@ def test_set_pet_photo_empty_id():
     assert status == 404
 
 
-def test_set_pet_photo_empty_photo():
+def test_set_pet_photo_wrong_file_format():
     """Проверка: Добавить фото питомцу. Неверный формат отправляемого файла"""
 
     # Запрашиваем токен
